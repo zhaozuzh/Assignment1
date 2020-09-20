@@ -111,7 +111,7 @@ cesR::get_ces(&quot;ces2019_web&quot;)
 ces2019_age &lt;- ces2019_web %&gt;% select(cps19_age)
 ces2019_age %&gt;% ggplot(aes(x = cps19_age)) + geom_histogram(bins = 18, color = &quot;black&quot;, fills = &quot;grey&quot;) + labs(x = &quot;xX&quot;, y = &quot;yY&quot;, title = &quot;XY&quot;, caption = &quot;WHAT&quot;) + theme_bw()
 ## Warning: Ignoring unknown parameters: fills</code></pre>
-<p><img src="../../../../post/2019-08-23-r-rmarkdown_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><img src="../../../../post/2020-09-20-r-rmarkdown_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 <p>Through the plot, we can see the distribution of Age is Bi-modal and right-skewed (more outliers shown on the right side of the distribution). The center of the distribution is about 50 years old, and the Two modes are around 30 and 60. There are a few outliers whose ages are greater than 100. And no observations are less than 18. So the overall range of the distribution of Age is about 82 years.</p>
 </div>
 <div id="graph-discussion" class="section level1">
